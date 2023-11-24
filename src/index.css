@@ -75,7 +75,7 @@ button:focus-visible {
 }
 
 body {
-  background-image: url(/src/assets/top-bottom-flowers.jpg);
+  background-image: url(/src/assets/pexels.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -105,7 +105,7 @@ header {
 }
 
 header {
-  margin-bottom: 150px;
+  margin-bottom: 75px;
 }
 
 .app {
@@ -134,5 +134,14 @@ label {
   align-self: flex-start;
 }
 
-#backtoall {
+.navbar {
+  font-family: cursive;
+  text-shadow: 10px;
+  font: bolder;
+  font-weight: 900;
+  text-decoration: solid;
+}
+
+.navbar {
+  color: rgb(106, 6, 6);
 }

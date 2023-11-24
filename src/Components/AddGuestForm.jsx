@@ -134,7 +134,7 @@ export default function AddGuestForm() {
           id="addConfirm"
           type="checkbox"
           onChange={handleAddConfirmChange}
-          checked={guest.addConfirm}
+          checked={String(guest.addConfirm)}
         />
         <br />
         <label htmlFor="isMailed">Invite is Mailed: </label>
@@ -142,7 +142,7 @@ export default function AddGuestForm() {
           id="isMailed"
           type="checkbox"
           onChange={handleIsMailedChange}
-          checked={guest.isMailed}
+          checked={String(guest.isMailed)}
         />
         <br />
         <label htmlFor="rsvp">RSVP is Received: </label>
@@ -150,7 +150,7 @@ export default function AddGuestForm() {
           id="rsvp"
           type="checkbox"
           onChange={handleRsvpChange}
-          checked={guest.rsvp}
+          checked={String(guest.rsvp)}
         />
         <br />
         <label htmlFor="attending">Guest is Attending: </label>
@@ -158,7 +158,7 @@ export default function AddGuestForm() {
           id="attending"
           type="checkbox"
           onChange={handleAttendingChange}
-          checked={guest.attending}
+          checked={String(guest.attending)}
         />
         <br />
         <br />

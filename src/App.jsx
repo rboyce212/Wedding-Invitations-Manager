@@ -32,25 +32,3 @@ function App() {
 }
 
 export default App;
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Router>
-//         <NavBar />
-//         <main>
-//           <Routes>
-//             <Route path="/" element={<Home />} />
-//             <Route path="/guests" element={<Index />} />
-//             <Route path="/guests/add" element={<Add />} />
-//             <Route path="/guests/:id" element={<Details />} />
-//             <Route path="/guests/:id/edit" element={<Edit />} />
-//             <Route path="*" element={<Error />} />
-//           </Routes>
-//         </main>
-//       </Router>
-//     </div>
-//   );
-// }
-
-// export default App;
