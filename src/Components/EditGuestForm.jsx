@@ -168,13 +168,20 @@ export default function EditGuestForm() {
         />
         <br />
         <br />
-        <button type="submit" className="btn btn-primary">
-          Submit Changes
-        </button>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-primary me-md-2" type="submit">
+            Submit Changes
+          </button>
+          <Link to={`/guests/${id}`}>
+            <button class="btn btn-primary" type="button">
+              Nevermind, Go Back
+            </button>
+          </Link>
+        </div>
       </form>
-      <Link to={`/guests/${id}`}>
+      {/* <Link to={`/guests/${id}`}>
         <button>Nevermind</button>
-      </Link>
+      </Link> */}
     </div>
   );
 }
