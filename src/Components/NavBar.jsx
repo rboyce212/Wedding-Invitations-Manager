@@ -6,7 +6,8 @@ export default function NavBar() {
       <header>
         <h2 className="navbar">
           <Link to="/">
-            Wedding Invite Organizer <link />
+            Wedding Invites Manager 1.0
+            <link />
           </Link>
         </h2>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -21,12 +22,3 @@ export default function NavBar() {
     </nav>
   );
 }
-
-<div class="d-grid gap-2 d-md-flex justify-content-md-end">
-  <button class="btn btn-primary me-md-2" type="button">
-    Button
-  </button>
-  <button class="btn btn-primary" type="button">
-    Button
-  </button>
-</div>;
