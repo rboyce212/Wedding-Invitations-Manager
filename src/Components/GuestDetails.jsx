@@ -38,10 +38,10 @@ export default function GuestDetails() {
             <p>Street Address: {guest.street_address_one}</p>
             <p>Street (cont.): {guest.street_address_two}</p>
             <p>City, ST Zip: {guest.city_state_zip}</p>
-            <p>Address Confirmed: {guest.address_is_confirmed}</p>
-            <p>Invite Mailed:{guest.invite_is_mailed}</p>
-            <p>RSVP Received: {guest.rsvp_is_received}</p>
-            <p>Is Attending: {guest.is_attending}</p>
+            <p>Address Confirmed: {String(guest.address_is_confirmed)}</p>
+            <p>Invite Mailed:{String(guest.invite_is_mailed)}</p>
+            <p>RSVP Received: {String(guest.rsvp_is_received)}</p>
+            <p>Is Attending: {String(guest.is_attending)}</p>
             <p>Confirmed Total: {guest.party_total}</p>
           </div>
           <Link to={`/guests/${id}/edit`} className="btn btn-primary">

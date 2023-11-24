@@ -132,28 +132,28 @@ export default function EditGuestForm() {
           id="addConfirm"
           type="checkbox"
           onChange={handleAddConfirmChange}
-          checked={guest.address_is_confirmed}
+          checked={String(guest.address_is_confirmed)}
         />
         <label htmlFor="isMailed">Invite is Mailed: </label>
         <input
           id="isMailed"
           type="checkbox"
           onChange={handleIsMailedChange}
-          checked={guest.invite_is_mailed}
+          checked={String(guest.invite_is_mailed)}
         />
         <label htmlFor="rsvp">RSVP is Received: </label>
         <input
           id="rsvp"
           type="checkbox"
           onChange={handleRsvpChange}
-          checked={guest.rsvp_is_received}
+          checked={String(guest.rsvp_is_received)}
         />
         <label htmlFor="attending">Guest is Attending: </label>
         <input
           id="attending"
           type="checkbox"
           onChange={handleAttendingChange}
-          checked={guest.is_attending}
+          checked={String(guest.is_attending)}
         />
         <label htmlFor="party">Number of Guests Attending: </label>
         <input

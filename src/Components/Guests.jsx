@@ -49,10 +49,16 @@ export default function Guests() {
                 <td className="table-secondary">{item.street_address_one}</td>
                 <td className="table-secondary">{item.street_address_two}</td>
                 <td className="table-secondary">{item.city_state_zip}</td>
-                <td className="table-secondary">{item.address_is_confirmed}</td>
-                <td className="table-secondary">{item.invite_is_mailed}</td>
-                <td className="table-secondary">{item.rsvp_is_received}</td>
-                <td className="table-secondary">{item.is_attending}</td>
+                <td className="table-secondary">
+                  {String(item.address_is_confirmed)}
+                </td>
+                <td className="table-secondary">
+                  {String(item.invite_is_mailed)}
+                </td>
+                <td className="table-secondary">
+                  {String(item.rsvp_is_received)}
+                </td>
+                <td className="table-secondary">{String(item.is_attending)}</td>
                 <td className="table-warning">{item.party_total}</td>
               </tr>
             ))}
