@@ -79,4 +79,4 @@ An app to keep track of all your wedding guest invites...
 
 ##### Presentation:
 
-[Video Presentation](https://drive.google.com/file/d/1CHdQOuAyw-b3dU1h_-MoqNZ_9VK-JBQT/view?usp=sharing)https://drive.google.com/file/d/1CHdQOuAyw-b3dU1h_-MoqNZ_9VK-JBQT/view?usp=sharing)
+[Video Presentation](https://drive.google.com/file/d/1CHdQOuAyw-b3dU1h_-MoqNZ_9VK-JBQT/view?usp=sharing)
